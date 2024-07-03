@@ -37,6 +37,7 @@ fn main() {
     }
     let mut sig = dev.create_signal::<f64>(&signal_name, libmapper_rs::constants::mpr_dir::MPR_DIR_OUT);
 
+    println!("Ready!");
     let start = Instant::now();
     loop {
         dev.poll_and_block(rate);
