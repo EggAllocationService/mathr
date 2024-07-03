@@ -118,7 +118,7 @@ checksum = "f8478577c03552c21db0e2724ffb8986a5ce7af88107e6be5d2ee6e158c12800"
 [[package]]
 name = "libmapper-rs"
 version = "0.1.0"
-source = "git+ssh://git@github.com/EggAllocationService/libmapper-rs.git?rev=6b2275c#6b2275c85dd058ccb28b1344db47529546fe56c7"
+source = "git+https://github.com/EggAllocationService/libmapper-rs.git?rev=6b2275c#6b2275c85dd058ccb28b1344db47529546fe56c7"
 dependencies = [
  "pkg-config",
 ]
