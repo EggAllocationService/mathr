@@ -1,4 +1,4 @@
-use std::{thread, time::{Duration, Instant}};
+use std::time::Instant;
 
 use clap::Parser;
 use libmapper_rs::device::Device;
