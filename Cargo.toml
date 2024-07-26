@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-libmapper-rs = {git = "https://github.com/EggAllocationService/libmapper-rs.git", rev = "6b2275c"}
+libmapper-rs = "1.0.1"
 meval = "0.2"
 clap = {version = "4.0", features=["derive"]}

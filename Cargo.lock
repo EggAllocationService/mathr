@@ -117,8 +117,9 @@ checksum = "f8478577c03552c21db0e2724ffb8986a5ce7af88107e6be5d2ee6e158c12800"
 
 [[package]]
 name = "libmapper-rs"
-version = "0.1.0"
-source = "git+https://github.com/EggAllocationService/libmapper-rs.git?rev=6b2275c#6b2275c85dd058ccb28b1344db47529546fe56c7"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5a5fbceae9a1b0b5ab4e12dcd408ab7005ae4603d0bad7c40dd301dd520779f7"
 dependencies = [
  "pkg-config",
 ]
